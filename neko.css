@@ -1,0 +1,91 @@
+/* Keterangan : 
+
+	col-1 {width : 8,33%;}
+	col-2 {width:16.66%;}
+	col-3 {width:25%;}
+	col-4 {width:33.33%;}
+	col-5 {width:41.66%;}
+	col-6 {width:50%;}
+	col-7 {width:58.33%;}
+	col-8 {width:66.66%;}
+	col-9 {width:75%;}
+	col-10 {width:83.33%;}
+	col-11 {width:91.66%;}
+	col-12 {width:100%;}
+ 
+ Semua Col pake {float:left;}
+
+*/
+
+
+
+body {margin: 0;padding: 0;font-family: sans-serif;}
+
+/*set Header - > */
+
+header {background-image: url(hmk1.jpg);height: 483px;background-size: cover;background-position: center;}
+header .wrapper-header {width: 80%;margin: 0 auto}
+
+header .slog {color: #fff;margin: 0;text-align: center;padding-top: 150px;}
+header .slog h1 {margin: 0;font-size: 50px;}
+header .slog p {margin: 0;font-family: Open Sans Light}
+
+/* p class */
+
+header .slog .call {font-size: 30px}
+
+/* Set Navigation (Menu) */
+
+nav {background: #0E0F13;padding: 5px}
+nav .wrapper-nav {width: 80%;margin: 0 auto}
+nav ul {list-style-type: none;font-family: Lucida Sans;margin: 0;}
+nav ul li {float: right;padding: 18px 0px;margin: 0 }
+nav ul li a {text-decoration: none;color: #fff;padding: 12px;transition: 0.4s ease;margin-left: 5px}
+nav ul li a:hover {background: #E21F26;border:solid 1px #E21F26;border-radius: 5px;padding: 11px}
+nav ul img {padding-top: 5px}
+
+/* Set Content */
+
+.content {margin-top: 50px}
+.content .wrapper-content {width: 80%;margin: 0 auto}
+.content h1 {font-size: 30px;margin: 0;}
+.content .col {width: 33% ;float: left;margin-top: 30px}
+.content .col img {width: 100%;}
+.content p {font-size: 15px;}
+.content .container-col {width: 95%;margin: 0 auto;}
+
+.content .col button {padding: 14px;border: solid 1px #F4524D; border-radius: 5px;background: #F4524D; color: #fff; font-size: 14px;transition: 0.3s ease}
+.content .col button:hover {border: solid 1px #E21F26;background: #E21F26; cursor: pointer;}
+
+/* Set info */
+
+.info {margin-top: 70px}
+.info .wrapper-info {width: 80%;margin: 0 auto;background: }
+
+/*set info - video */
+.info .video-col {width: 50%;float: left;}
+
+.info .news {width: 50%;float: left;}
+
+/* Set info - news left */
+
+.info .news .col-news .left {width: 30%;float: left; background: }
+.info .news .col-news .left img {margin-left: 30px}
+
+
+/* Set info - news Right */
+.info .news .col-news {margin-bottom: 20px}
+
+.info .news .col-news .right {width: 70% ;float:left; background: }
+.info .news .col-news .right p {margin: 0}
+.info .news .col-news .right h3 {margin: 0;}
+.info .news .col-news .right h3 a {text-decoration: none;color: #000;}
+.info .news .col-news .right h3 a:hover {color: #E21F26;transition: 0.3s ease}
+.info .news .col-news .right button {padding: 5px;border: solid 1px #F4524D; border-radius: 5px;background: #F4524D; color: #fff; font-size: 14px;transition: 0.3s ease}
+.info .news .col-news .right button:hover {border: solid 1px #E21F26;background: #E21F26; cursor: pointer;}
+
+/*Set Footer*/
+
+footer {background: #0E0F13;padding: 25px 0px;margin-top: 50px}
+footer p {margin: 0; color: #fff;font-size: 14px}
+footer .wrapper-footer {width: 60%;margin: 0 auto}
